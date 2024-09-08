@@ -24,3 +24,6 @@ to insepect details of a specific volume
 
 ## Compose file explaination
 `ports: ${HOST_PORT}:${CONTAINER_PORT}`
+
+## Reminder
+- If MongoDB keeps throwing **Authentication Error** from your `MONGO_USER` particular, try to remove the volume underhood and create a new one.
